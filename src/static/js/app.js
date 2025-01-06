@@ -1,8 +1,8 @@
 function App() {
-    const { Container, Row, Col } = ReactBootstrap;
+    const { Container, Row, Col, Badge } = ReactBootstrap;
     return (
         <Container>
-            <h1 md={{ offset: 3, span: 6 }}>ToDo App by Riza Setiawan Soetedjo</h1>
+            <h1 align="center">ToDo App by Riza Setiawan Soetedjo</h1> <Badge bg="dark">rizstwn</Badge>
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
                     <TodoListCard />
